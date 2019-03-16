@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.TypeConverterDelegate</OriginalElement>
+  <nodes>
+    <node x="931.5" y="412.0">org.springframework.beans.TypeConverterSupport</node>
+    <node x="124.51785714285711" y="434.5">org.springframework.data.web.MapDataBinder</node>
+    <node x="853.3928571428571" y="594.0">org.springframework.beans.AbstractPropertyAccessor</node>
+    <node x="345.49999999999994" y="126.5">org.springframework.beans.TypeConverter</node>
+    <node x="20.0" y="640.0">org.springframework.data.web.ProxyingHandlerMethodArgumentResolver</node>
+    <node x="796.5" y="0.0">org.springframework.beans.TypeConverterDelegate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.data.web.MapDataBinder" target="org.springframework.beans.TypeConverter">
+      <point x="0.0" y="-38.5" />
+      <point x="313.5178571428571" y="392.0" />
+      <point x="413.99999999999994" y="392.0" />
+      <point x="-137.0" y="49.5" />
+    </edge>
+    <edge source="org.springframework.beans.TypeConverterSupport" target="org.springframework.beans.TypeConverter">
+      <point x="-102.75" y="-61.0" />
+      <point x="1034.25" y="392.0" />
+      <point x="688.0" y="392.0" />
+      <point x="137.0" y="49.5" />
+    </edge>
+    <edge source="org.springframework.beans.TypeConverterSupport" target="org.springframework.beans.TypeConverterDelegate">
+      <point x="102.75" y="-61.0" />
+      <point x="147.75" y="176.0" />
+    </edge>
+    <edge source="org.springframework.data.web.ProxyingHandlerMethodArgumentResolver" target="org.springframework.data.web.ProxyingHandlerMethodArgumentResolver">
+      <point x="0.0" y="73.0" />
+      <point x="325.0" y="806.0" />
+      <point x="0.0" y="806.0" />
+      <point x="0.0" y="713.0" />
+      <point x="-305.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.data.web.MapDataBinder" target="org.springframework.data.web.MapDataBinder">
+      <point x="-126.0" y="38.5" />
+      <point x="187.5178571428571" y="531.5" />
+      <point x="104.51785714285711" y="531.5" />
+      <point x="104.51785714285711" y="473.0" />
+      <point x="-189.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.beans.AbstractPropertyAccessor" target="org.springframework.beans.AbstractPropertyAccessor">
+      <point x="0.0" y="119.0" />
+      <point x="1057.392857142857" y="852.0" />
+      <point x="833.3928571428571" y="852.0" />
+      <point x="833.3928571428571" y="713.0" />
+      <point x="-204.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.beans.AbstractPropertyAccessor" target="org.springframework.beans.TypeConverter">
+      <point x="-102.0" y="-119.0" />
+      <point x="955.3928571428571" y="574.0" />
+      <point x="629.9821428571428" y="574.0" />
+      <point x="629.9821428571428" y="392.0" />
+      <point x="551.0" y="392.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="org.springframework.data.web.ProxyingHandlerMethodArgumentResolver" target="org.springframework.data.web.MapDataBinder">
+      <point x="-152.5" y="-73.0" />
+      <point x="172.5" y="574.0" />
+      <point x="313.5178571428571" y="574.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.springframework.beans.TypeConverterSupport" target="org.springframework.beans.TypeConverterSupport">
+      <point x="-102.75" y="61.0" />
+      <point x="1034.25" y="554.0" />
+      <point x="911.5" y="554.0" />
+      <point x="911.5" y="473.0" />
+      <point x="-205.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.beans.AbstractPropertyAccessor" target="org.springframework.beans.TypeConverterSupport">
+      <point x="102.0" y="-119.0" />
+      <point x="1159.392857142857" y="574.0" />
+      <point x="1239.75" y="574.0" />
+      <point x="102.75" y="61.0" />
+    </edge>
+    <edge source="org.springframework.beans.TypeConverterDelegate" target="org.springframework.beans.TypeConverterDelegate">
+      <point x="-147.75" y="176.0" />
+      <point x="944.25" y="372.0" />
+      <point x="776.5" y="372.0" />
+      <point x="776.5" y="176.0" />
+      <point x="-295.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="746.340909090909" y="559.2857142857142" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
